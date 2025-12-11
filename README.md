@@ -26,7 +26,7 @@ Console.
       clone the repo
       mkdir ~/repos
       cd ~/repos
-      ```git clone https://github.com/r-caamano/zitified-databricks.git```
+      ```git clone https://github.com/netfoundry/zitified-databricks.git```
       cd zitified-databricks/src
 
 2. Create and enroll a ziti identity place the identity json file in the ~/repos/zitified-databricks/src on the VM created in step 1.
