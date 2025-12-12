@@ -67,15 +67,19 @@ Console.
       ```source databricks/bin/activate```
 
    b. Install openziti and databricks modules
+
       ```pip3 install openziti```
+
       ```pip3 install databricks.sdk```
+
       ```pip3 install mlflow```
 
    c. create a databricks config file ~/.databrickscfg with the following contents
+      ```
       [free-profile]
       host = https://<workspace-prefix>.cloud.databricks.com #Your workspace url
       token = dapiXXXXXXXXXXXXXXXXXXXX #Your Generated PAT
-
+      ```
    d. Execute the script 
 
    ```python3 zdatab.py --ziti-identity datab_client.json --csv-file iris.csv```
