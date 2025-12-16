@@ -56,7 +56,7 @@ Console.
 
 
 
-4. On the VM created in step one sent a chat command via using zdatab.py e.g.
+4. On the VM created in step one, send a chat command via using zdatab.py e.g.
 
    a. Create a python virtual environment
 
