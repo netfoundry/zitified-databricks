@@ -23,13 +23,18 @@ Console.
 
    b. ## Build the Example
       On the linux system that will run the Client
-      clone the repo
-      mkdir ~/repos
-      cd ~/repos
+      
+      clone the repo:
+   
+      ```mkdir ~/repos```
+   
+      ```cd ~/repos```
+   
       ```git clone https://github.com/netfoundry/zitified-databricks.git```
-      cd zitified-databricks/src
+   
+      ```cd zitified-databricks/src```
 
-2. Create and enroll a ziti identity place the identity json file in the ~/repos/zitified-databricks/src on the VM created in step 1.
+3. Create and enroll a ziti identity place the identity json file in the ~/repos/zitified-databricks/src on the VM created in step 1.
    ```
    a. databricks_client01
    ```
